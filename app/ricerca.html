@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+   <link rel="stylesheet" href="styles/main.css">
+
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+    <!-- endbuild -->
+  </head>
+
+  <body ng-app="erasmusApp" >
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Home</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+           <li class="active"><a href="ricerca.html">Cerca Annuncio <span class="sr-only">(current)</span></a></li>
+
+
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right ">
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <div>   <ul>   <li> <img src="images/Sign In.png" width=30;></li> </ul></div>
+
+            <ul class="dropdown-menu">
+              <li><a href="login.html">Accedi</a></li>
+              <li><a href="registrazione.html">Registrati</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+  <form class="form-horizontal">
+<fieldset style="margin-top:100px;">
+
+<!-- Form Name -->
+<legend>Ricerca</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Città</label>
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" placeholder="Città" class="form-control input-md" type="text">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Università</label>
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" placeholder="Università" class="form-control input-md" type="text">
+
+  </div>
+</div>
+
+
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Tipo di contratto">Tipo di contratto:</label>
+  <div class="col-md-4">
+    <label class="radio-inline1" for="radios-0">
+      <input name="radios" id="radios-0" value="Affitti Abitativi" checked="checked" type="radio">
+      Affitti Abitativi
+    </label>
+    <label class="radio-inline1" for="Affitti Posti Letto">
+      <input name="radios" id="Affitti Posti Letto" value="Affitti Posti Letto" type="radio">
+      Affitti Posti Letto
+    </label>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Compagnia">Compagnia:</label>
+  <div class="col-md-5">
+    <select id="Compagnia" name="Compagnia" class="form-control">
+      <option value="1">Uomo</option>
+      <option value="2">Donna</option>
+      <option value="3">Misto</option>
+    </select>
+  </div>
+</div>
+
+
+
+
+<!-- Numero di Vani -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Numero di vani:</label>
+  <div class="col-md-4">
+    <label class="radio-inline" for="1">
+      <input name="radios" id="radios-0" value="1"  type="radio">
+      1
+    </label>
+    <label class="radio-inline" for="2">
+      <input name="2" id="2" value="2" type="radio">
+      2
+    </label>
+    <label class="radio-inline" for="2">
+      <input name="2" id="2" value="2" type="radio">
+      3
+    </label>
+    <div class="col-md-4">
+   <button id="BtnSubmit" name="BtnSubmit" class="btn btn-primary">Cerca</button>
+ </div>
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+</fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/angular-aria/angular-aria.js"></script>
+  <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+  <script src="bower_components/angular-messages/angular-messages.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+  <script src="bower_components/angular-touch/angular-touch.js"></script>
+  <script src="bower_components/angular-material/angular-material.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="bower_components/angular-material/angular-material.min.js"></script>
+
+  <script src="scripts/app.js"></script>
+  </body>
+
+  </html>

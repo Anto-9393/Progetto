@@ -1,0 +1,415 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+//  background-image: url(..images/sfondo.jpg);
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.navbar{
+  height: 20px;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color:  #1a9ebf;
+
+
+    }
+    .navbar-nav > li > a {
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+
+  padding-bottom: 40px;
+  background-image: url(/images/sfondo.jpg);
+  /*background-attachment: fixed;*/
+  background: fixed;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+
+ }
+ legend{
+   border: none;
+ }
+ h3 {
+  color: white;
+ text-align: center;
+ }
+ h4 {
+  margin-top: 28px;
+  color: white;
+  margin-left: 20px;
+
+}
+
+
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  margin-bottom: 0px;
+      background-image: url(../images/studenti1.jpg);
+      background-position: 0% 25%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      text-shadow: black 0.3em 0.3em 0.3em;
+      height: 100%;
+      width: 100%;
+
+
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+
+  }
+}
+
+.btn-primary{
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.col-xs-10 {
+  margin-left: 15px;
+}
+
+.col-xs-offset-1{
+  margin-left: 65px;
+}
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+
+   p+h4 {
+    margin-top: 28px;
+    color: white;
+    margin-left: 10px;
+
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.jumbotron-special{
+  border-bottom: 0;
+}
+.thumbnail{
+  margin-top:350px;
+  margin-left: 80px;
+
+
+}
+.jumbotron-annuncio{
+  width:100%;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 0px;
+      background-image: url(../images/italia.jpg);
+      background-position: 0% 80%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      text-shadow: black 0.3em 0.3em 0.3em;
+      font-family: IntervalNextBook,sans-serif;
+      color: blue;
+margin-top: 650px;
+
+ p + h3{
+  font-family: IntervalNextBook,sans-serif;
+  color:red;}
+
+}
+
+
+
+.jumbotron-special{
+    width:100%;
+    height: 0;
+
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding:0px;
+    margin:0px;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form{
+
+
+  width: 30%;
+  transition: 2s;
+  margin-top: 100px;
+  box-shadow: 0px 0px 20px blue,0px 0px 88px white;
+}
+
+.logo{
+  height: 75px;margin-top: 40px;
+  margin-left: 40%;
+}
+.spazio{margin-top: 40px;}
+.Input{transition: .8s;
+background-color:rgba(0,0,0,.5);
+color: white;
+border-color: #006;
+border-bottom-color: white;
+border-bottom-style: groove;
+border-right: 0;
+border-left: 0;
+border-top: 0;
+border-width: 6px;}
+
+.Input:hover{transition: .8s;
+//background-color: rgba(55,71,79,.5);
+box-shadow: inset ;
+border-bottom-color: red;  }
+
+.Input:focus{
+  transition:8s;
+  border-bottom-color: red;
+
+  @media screen and(max-width: 750px){
+    .form{
+      width: 95%;
+      margin-top: 10px;
+    }
+  }
+}
+
+fieldset{
+  transition: 10s;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  border-color:white;
+  border-style: groove;
+  border-width: 3px;
+  border-radius: 15px;
+}
+.carousel{
+  height: 100%;
+  width: 100%;
+  h1{
+    font-family: IntervalNextBook,sans-serif;
+    color: white;
+  }
+}
+
+
+.login-block{
+//  background-image: url();
+width:100%;
+padding : 50px 0;
+}
+
+#playground-container {
+    height: 500px;
+    overflow: hidden !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.main{
+ 	margin:50px 15px;
+  margin-top: 100px;
+  transition: .8s;
+
+}
+
+h1.title {
+	font-size: 50px;
+	font-family: 'Passion One', cursive;
+	font-weight: 400;
+}
+
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+    transition: .8s;
+    background-color: rgba(55,71,79,.5);
+    box-shadow: inset ;
+    border-bottom-color: red;
+}
+
+.main-login{
+
+ 	//background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+
+
+}
+.form-control {
+    height: auto!important;
+padding: 8px 12px !important;
+}
+.Input{font-size: 22px;
+border-bottom-style: ridge;}
+.input-group {
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+}
+#button {
+    border: 1px solid #ccc;
+
+    margin-top: 28px;
+    padding: 6px 12px;
+    color: #666;
+    text-shadow: 0 1px #fff;
+    cursor: pointer;
+    -moz-border-radius: 3px 3px;
+    -webkit-border-radius: 3px 3px;
+    border-radius: 3px 3px;
+    -moz-box-shadow: 0 1px #fff inset, 0 1px #ddd;
+    -webkit-box-shadow: 0 1px #fff inset, 0 1px #ddd;
+    box-shadow: 0 1px #fff inset, 0 1px #ddd;
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #eeeeee));
+    background: -webkit-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: -o-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: -ms-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
+}
+.main-center{
+ 	margin-top: 300px;
+ 	margin: 0 auto;
+ 	max-width: 400px;
+    padding: 10px 40px;
+	//background:#009edf;
+	    color: #FFF;
+    text-shadow: none;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+
+}
+span.input-group-addon i {
+    color: #009edf;
+    font-size: 17px;
+}
+.caption{font-family: Verdana, sans-serif;
+    font-size: 10px;
+      text-align: center;
+    //float:right;
+    margin: 0;
+    padding: 0;
+    position:relative;
+    overflow: hidden;
+    margin-top: 150px;
+}
+.caption span {
+    float: left;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    color: #dedede;
+    margin-bottom: 150px;
+
+    background: #222; /* browser che non supportano rgba */
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+
+
+.form-control {
+    color: white;
+    background-color: #333333;
+    font-size: 15px;
+  }
+
+  .form-horizontal{
+    margin-top: 200px; !important;
+  }
+
+  .fieldset1{transition: 10s;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  border-color:white;
+  border-style: groove;
+  border-width: 3px;
+  border-radius: 15px;}
